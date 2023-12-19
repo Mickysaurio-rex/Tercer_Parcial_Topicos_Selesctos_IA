@@ -1,10 +1,9 @@
 import geocoder
 
-coordenadas = []
-
 class Localizador:
-
+    
     def obtener_coordenadas_actual(self):
+        coordenadas = []
         location = geocoder.ipinfo("me")
         if location.ok:
             latitud = location.latlng[0]
@@ -15,6 +14,3 @@ class Localizador:
         else:
             print(f"Error al obtener la ubicación: {location}")
     
-
-
-obt = obtener_coordenadas_actual()
