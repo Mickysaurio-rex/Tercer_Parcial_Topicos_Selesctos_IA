@@ -30,11 +30,11 @@ El módulo de información utiliza GPT-3.5 para generar un JSON con datos cient�
 La interfaz de usuario devuelve la predicción y la información detallada al usuario.
 
 ## Resumen del Modelo 🐲
-Entrada: Imagen de un animal.
-Proceso:
-Predicción básica del animal utilizando un modelo de clasificación.
-Generación de información detallada utilizando GPT-3.5.
-Salida: Respuesta al usuario con la predicción y detalles sobre el animal.
+* Entrada: Imagen de un animal.
+* Proceso:
+  Predicción básica del animal utilizando un modelo de clasificación.
+  Generación de información detallada utilizando GPT-3.5.
+* Salida: Respuesta al usuario con la predicción y detalles sobre el animal.
 
 ## Colaboradores 😎
 [Miguel Molina](https://github.com/Mickysaurio-rex)
